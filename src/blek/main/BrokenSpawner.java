@@ -52,6 +52,7 @@ public final class BrokenSpawner extends JavaPlugin implements Listener {
 					
 					p.playSound(p.getLocation(), Sound.ITEM_BREAK, 1, 1);
 					p.getItemInHand().setType(Material.MOB_SPAWNER);
+					p.getItemInHand().setData(null);
 					for(Enchantment e1 : p.getItemInHand().getEnchantments().keySet())
 					{
 						p.getItemInHand().removeEnchantment(e1);
