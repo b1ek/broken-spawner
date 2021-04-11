@@ -1,0 +1,6 @@
+enchantment = SILK_TOUCH
+enchantmentLVL = 2
+pickaxe = GOLD_PICKAXE
+# Пишите сюда зачарование и его уровень, при котором будет ломаться блок спавнера.
+# Типы зачарований: https://helpch.at/docs/1.12.2/org/bukkit/enchantments/Enchantment.html
+# Типы предметов(материалов): https://helpch.at/docs/1.12.2/org/bukkit/Material.html
